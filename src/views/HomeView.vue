@@ -121,7 +121,7 @@
                                 </div>
                                 <div class="md:flex items-center mt-8">
                                     <div class="w-full flex flex-col">
-                                        <label class="font-semibold leading-none text-menu">Subject</label>
+                                        <label class="font-semibold leading-none text-menu">Objet</label>
                                         <input type="text" class="leading-none text-menu p-3 mt-4 border-0 bg-gray-100 rounded"/>
                                     </div>
                                     
@@ -129,7 +129,7 @@
                                 <div>
                                     <div class="w-full flex flex-col mt-8">
                                         <label class="font-semibold leading-none text-menu">Message</label>
-                                        <textarea type="text" class="h-40 text-base leading-none text-gray-50 p-3 mt-4 bg-gray-100 border-0 rounded"></textarea>
+                                        <textarea type="text" class="h-40 text-base leading-none text-menu p-3 mt-4 bg-gray-100 border-0 rounded"></textarea>
                                     </div>
                                 </div>
                                 <div class="flex items-center justify-center w-full">
