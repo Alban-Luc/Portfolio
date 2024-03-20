@@ -4,19 +4,19 @@ const cards = [
   {
     title: "Share my loc",
     description: "Application",
-    img: "/src/components/icons/SML.png",
+    img: "public/SML.png",
     link: "/SML"
   },
   {
     title: "AquaSynchro",
     description: "Application",
-    img: "/src/components/icons/AquaSynchro.png",
+    img: "public/AquaSynchro.png",
     link: "/AquaSynchro"
   },
   {
     title: "Lofi Style",
     description: "Motion Design",
-    img: "/src/components/icons/Lofi.png",
+    img: "public/Lofi.png",
     link: "/Lofi"
   }
 ]
