@@ -1,3 +1,26 @@
+<script setup>
+import Card from "@/components/card.vue";
+const cards = [
+  {
+    title: "Share my loc",
+    description: "Application",
+    img: "/src/components/icons/SML.png",
+    link: "/SML"
+  },
+  {
+    title: "AquaSynchro",
+    description: "Application",
+    img: "/src/components/icons/AquaSynchro.png",
+    link: "/AquaSynchro"
+  },
+  {
+    title: "Lofi Style",
+    description: "Motion Design",
+    img: "/src/components/icons/Lofi.png",
+    link: "/Lofi"
+  }
+]
+</script>
 <template>
     <div>
        
@@ -31,7 +54,18 @@
                             Projets réalisés
                         </h1>
                     </div>
+
                     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                   
+                    <div class="contents">
+
+                        <card v-for="(card, index) in cards" :key="index" :title="card.title" :description="card.description" :img="card.img" :link="card.link"/>
+
+                    </div>
+
+                    </div>
+                    <!-- <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <RouterLink to="/SML">
                                 <div class="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
                                     <div>
@@ -93,7 +127,7 @@
                                 <p class="text-base text-gray-400 font-normal">Dev Ops</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </section>
         </div>
 
