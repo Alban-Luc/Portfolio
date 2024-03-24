@@ -45,20 +45,26 @@ const cards = [
        
         
     <!-- Page a propos -->
-        <div id="a-propos" class="py-20">
+        <div id="a-propos" class="py-20 mt-10">
             <h1 class="text-6xl md:text-9xl font-bold">À PROPOS</h1>
-            <!-- Le contenu de la section À propos va ici -->
             <div class="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
                 <div class="flex flex-col lg:flex-row justify-center lg:justify-between gap-8">
                     <div class="lg:w-7/12 flex justify-center">
-                        <img class="w-40 lg:w-60 h-auto mx-auto" src="/src/components/icons/linkedin.png" alt="Moi">
+                        <img class="w-40 lg:w-60 h-auto mx-auto rounded transition-transform transform hover:scale-105 animate-slide-in-left" src="/src/components/icons/linkedin.png" alt="Moi">
                     </div>
                     <div class="w-full lg:w-5/12 flex flex-col justify-center text-center lg:text-left">
                         <h1 class="text-3xl lg:text-4xl font-bold leading-9 pb-4">En bref</h1>
                         <p class="font-normal text-base leading-6 text-gray-600">Actuellement en deuxième année du BUT MMI à Montbéliard, j'explore avec passion le monde du design web, du graphisme, du développement et de la communication. Ma formation et mes expériences m'ont permis de maîtriser des outils tels que la suite Adobe, ainsi que des langages comme HTML et CSS. Je suis motivé et prêt à mettre mes compétences en pratique au sein d'une équipe dynamique et innovante, tout en continuant à apprendre et à évoluer professionnellement.</p>
                     </div>
                 </div>
+                    <div>
+                        <a href="CV_Linkedin.pdf" download class="bg-menu  text-white font-bold py-2 px-4 rounded inline-flex items-center">
+                            Télécharger mon CV
+                
+                        </a>
+                    </div>
             </div>
+            
         </div>
 
 
@@ -186,5 +192,33 @@ const cards = [
     .image-section {
         margin-top: 20px;
     }
+
+    @keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 0.5s ease-out;
+  -webkit-animation: slide-in-left 0.5s ease-out;
+}
+
 
 </style>

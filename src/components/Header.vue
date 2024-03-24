@@ -20,7 +20,7 @@ const scrollToSection = (sectionId) => {
 
 <template>
   <div>
-    <header class="bg-white text-gray-800 p-4 fixed top-0 left-0 right-0">
+    <header class="bg-white text-gray-800 p-4 fixed top-0 left-0 right-0 z-50">
       <nav class="flex items-center justify-between mx-auto max-w-screen-lg">
         <!-- Logo ou nom du site -->
         <router-link to="/" class="text-2xl font-bold text-logo ml-16">ALBAN</router-link>
