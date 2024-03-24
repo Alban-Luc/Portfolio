@@ -27,15 +27,11 @@
           </dl>
         </div>
         <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-<<<<<<< HEAD
-          <img src="/sml2.png" alt="Walnut card tray with white powder coated steel divider and 3 punchout holes." class="rounded-lg bg-gray-100">
-          <img src="/sml3.png" alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100">
-          <img src="/sml4.png" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100">
-=======
+
           <img src="/Aqua.png" alt="Aqua." class="rounded-lg bg-gray-100">
           <img src="/Aqua2.png" alt="Aqua2." class="rounded-lg bg-gray-100">
           <img src="/Aqua3.png" alt="Aqua3." class="rounded-lg bg-gray-100">
->>>>>>> 5cd750e (Cards)
+
         </div>
       </div>
     </div>
