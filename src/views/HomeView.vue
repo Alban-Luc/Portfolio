@@ -37,13 +37,7 @@ const cards = [
     img: "Edenio.png",
     link: "/Edenio"
   },
-  {
-    title: "Application VAE",
-    description: "UX Design",
-    img: "VAE.png",
-    link: "/VAE"
-  },
-]
+];
 </script>
 
 <template>
