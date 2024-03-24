@@ -19,6 +19,12 @@ const cards = [
     img: "Lofi.png",
     link: "/Lofi"
   },
+  {
+    title: "Application VAE",
+    description: "UX Design",
+    img: "VAE.png",
+    link: "/VAE"
+  },
 ]
 </script>
 <template>

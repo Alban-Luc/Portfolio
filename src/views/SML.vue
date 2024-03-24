@@ -21,11 +21,6 @@ A chaque top de temps l'itinéraire est recalculé en fonction des déplaceme
               <img src="/behance.png" alt="Behance" width="40" height="40">
             </a>
           </div>
-            <div class="mt-10">
-            <router-link to="/" class="bg-menu  text-white font-bold py-2 px-4 rounded inline-flex items-center">
-              Retour
-            </router-link>
-          </div>
         </div>
 
       </dl>
