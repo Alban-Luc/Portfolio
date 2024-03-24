@@ -14,10 +14,28 @@ const cards = [
     link: "/AquaSynchro"
   },
   {
-    title: "Lofi Style",
-    description: "Motion Design",
-    img: "Lofi.png",
-    link: "/Lofi"
+    title: "Cinephoria",
+    description: "UX Design",
+    img: "Cine.png",
+    link: "/Cine"
+  },
+  {
+    title: "Application VAE",
+    description: "UX Design",
+    img: "VAE4.png",
+    link: "/VAE"
+  },
+  {
+    title: "TaVue",
+    description: "UX Design",
+    img: "Tavue.png",
+    link: "/TaVue"
+  },
+  {
+    title: "Edenio",
+    description: "UX Design",
+    img: "Edenio.png",
+    link: "/Edenio"
   },
   {
     title: "Application VAE",
@@ -27,6 +45,7 @@ const cards = [
   },
 ]
 </script>
+
 <template>
     <div>
        

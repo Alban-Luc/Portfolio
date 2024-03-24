@@ -26,9 +26,9 @@ A chaque top de temps l'itinéraire est recalculé en fonction des déplaceme
       </dl>
     </div>
     <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-      <img src="/sml2.png" alt="Walnut card tray with white powder coated steel divider and 3 punchout holes." class="rounded-lg bg-gray-100">
-      <img src="/sml3.png" alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100">
-      <img src="/sml4.png" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100">
+      <img src="/sml2.png" alt="sml2." class="rounded-lg bg-gray-100">
+      <img src="/sml3.png" alt="sml3." class="rounded-lg bg-gray-100">
+      <img src="/sml4.png" alt="sml4." class="rounded-lg bg-gray-100">
     </div>
   </div>
 </div>

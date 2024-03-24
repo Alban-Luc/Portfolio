@@ -13,7 +13,11 @@ const props = defineProps({
 <template>
     
     <RouterLink :to="link">
+<<<<<<< HEAD
         <div class="w-full bg-white rounded-lg overflow-hidden flex flex-col justify-center items-center transition-transform transform hover:scale-105">
+=======
+        <div class="w-full shadow bg-white rounded-lg overflow-hidden flex flex-col justify-center items-center transition-transform transform hover:scale-105">
+>>>>>>> 5cd750e (Cards)
             <div>
                 <img class="object-center object-cover h-auto w-full" :src="img" alt="photo">
             </div>
